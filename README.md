@@ -73,6 +73,16 @@ As the images below show , there is only one trip with the stop with id 111, and
  ![Results of query 1](img/results1.png)
  ![Results of query 2](img/results2.png)
  
+ ## Limitations and possible improvements:
+
+ - Initially, there were unit tests using pytest and mocking AWS services, but the structure of lambda methods had to be modified for them to work as expected. For the scope of the project, it was considered enough, but ideally proper testing would be done
+![Old testing](img/testing1.png)
+
+ - Database queries are very simple. Ideally more complex queries would be added, like filtering by time.
+ - More effort should be put into security , like a better analysis of input requests, better control of incoming requests themselves with other tools like WAF
+ - In case the ammount of request would increase, some form of cache should be implemented
+
+ 
  
  
  
