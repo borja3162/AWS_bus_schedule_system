@@ -75,7 +75,7 @@ As the images below show , there is only one trip with the stop with id 111, and
  
  ## Limitations and possible improvements:
 
- - Initially, there were unit tests using pytest and mocking AWS services, but the structure of lambda methods had to be modified for them to work as expected. For the scope of the project, it was considered enough, but ideally proper testing would be done
+ - Initially, there were unit tests using pytest and mocking AWS services, but the structure of lambda methods had to be modified for them to work as expected. For the scope of the project, it was not considered important enough to build new tests, but ideally it  would be done.
 ![Old testing](img/testing1.png)
 
  - Database queries are very simple. Ideally more complex queries would be added, like filtering by time.
