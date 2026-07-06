@@ -82,7 +82,11 @@ As the images below show , there is only one trip with the stop with id 111, and
  - More effort should be put into security , like a better analysis of input requests, better control of incoming requests themselves with other tools like WAF
  - In case the ammount of request would increase, some form of cache should be implemented
 
- 
+  ## AI usage for coding:
+  ChatGPT was used for 
+  - Adding logging into the endpoints and help with debug
+  - Refactor the original lambda method used to import the database. 
+
  
  
  
